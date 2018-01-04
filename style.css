@@ -1,0 +1,135 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+
+/*Main Styles*/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h3 {
+  font-weight: 600;
+  font-size: 32px;
+  margin: 5px 0px;
+  color: #033048;
+}
+h1 {
+  font-weight: 600;
+  font-size: 40px;
+  margin: 10px;
+}
+
+/*Main Navigation*/
+.main-nav {
+  background-color: #085d8a;
+  height: 100%;
+  padding: 10px;
+}
+.nav-links ul li {
+  display: inline-block;
+  padding: 7px;
+}
+.nav-logo {
+  float: left;
+  box-sizing: border-box;
+  margin: 10px 0px 10px 50px;
+  font-size: 32px;
+  font-weight: 800;
+  color: white;
+}
+.nav-links {
+  float: right;
+  box-sizing: border-box;
+  margin: 10px 20px 10px 0px;
+  color: #f9e42e;
+  font-weight: 300;
+}
+/*End of Main Navigation*/
+.main-body {
+  background-color: lightgray;
+  margin: 0 auto;
+}
+.left-column {
+  width: 66%;
+  float: left;
+  box-sizing: border-box;
+  padding: 20px 10px 20px 10px;
+}
+.left-column p {
+  font-size: 24px;
+  font-weight: 300;
+}
+.blog-rows img {
+  width: 100%;
+}
+.right-column {
+  width: 33%;
+  float: left;
+  box-sizing: border-box;
+  padding: 20px 10px 20px 10px;
+}
+.categories ul li {
+  padding: 2px;
+}
+.categories ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: #033048;
+}
+.categories {
+  margin-bottom: 30px;
+}
+.about-sec {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.sign-up {
+  background-color: #f9e42e;
+  text-align: center;
+  padding: 10px;
+}
+.sign-up-now {
+  background-color: #033048;
+  color: white;
+  font-size: 12px;
+  padding: 3px 30px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 0px;
+  font-weight: 600;
+}
+.relaxr-footer {
+  background-color: #121212;
+  text-align: center;
+  height: 100%;
+  padding-top: 20px;
+}
+
+/*Clear After Main Nav*/
+.main-nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*Clear After Main Body*/
+.main-body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
