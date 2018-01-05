@@ -31,6 +31,7 @@ h1 {
   font-weight: 600;
   font-size: 40px;
   margin: 7px 0px 15px 0px;
+  color: #033048;
 }
 
 /*************************************
@@ -94,6 +95,16 @@ h1 {
   float: left;
   width: 0.7em;
 }
+.blog-rows .read-more {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: right;
+  padding: 7px 0px;
+}
+.read-more a {
+  text-decoration: none;
+  color: #033048;
+}
 .line-break {
   margin: 20px 0px 20px 0px;
 }
@@ -125,6 +136,14 @@ h1 {
   font-size: 22px;
   font-weight: 300;
 }
+.about-sec .learn-more {
+  font-size: 22px;
+  font-weight: 600;
+}
+.learn-more a {
+  text-decoration: none;
+  color: #033048;
+}
 .ad-space image {
   width: 100%;
 }
@@ -137,7 +156,7 @@ h1 {
   background-color: #033048;
   color: white;
   font-size: 12px;
-  padding: 3px 30px;
+  padding: 7px 30px;
   border-radius: 5px;
   border: none;
   margin: 10px 0px;
@@ -148,6 +167,12 @@ h1 {
   text-align: center;
   height: 100%;
   padding-top: 20px;
+}
+.relaxr-footer ul {
+  padding: 10px 0px;
+}
+.relaxr-footer ul li {
+  display: inline-block;
 }
 
 /*Clear After Main Nav*/
